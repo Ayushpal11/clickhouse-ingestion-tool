@@ -1,4 +1,14 @@
-Prompt: Flask API for ClickHouse connection using JWT and selecting tables
-Prompt: JavaScript frontend to post form data to backend and show table names
-Prompt: Ingest data from ClickHouse to CSV using clickhouse-driver and pandas
-Prompt: Create simple HTML UI with input fields and status area
+Create a Flask API with endpoints for: JWT authentication with ClickHouse database, retrieving available tables, fetching column metadata, and executing data transfer.
+
+Implement error handling for connection issues and authentication failures. Use clickhouse-driver for database connectivity.
+
+Implement form validation and clear error messaging for user inputs.
+
+Implement a data transfer function using clickhouse-driver to query data with selected columns, process results in batches with pandas for memory efficiency, and write to CSV files with appropriate encoding and delimiter handling.
+
+Code to Track and report record count and transfer status.
+
+Develop a data preview component that displays the first 100 rows of selected data with proper column formatting, pagination, and the ability to verify column selection before full transfer
+
+
+Design an interface for configuring multi-table joins with visual relationship mapping, join condition builders, and preview of joined data structure
